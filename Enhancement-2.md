@@ -1,4 +1,5 @@
 Enhancement 2: Algorithms and Data Structures
+
 Briefly describe the artifact. What is it? When was it created?
 
 The artifact used for this enhancement is the Weight Tracker Android application originally created during my CS 360 Mobile Architecture and Programming course. The original version of the application allowed users to record, update, and delete daily weight entries, but it primarily functioned as a basic data entry and storage tool without meaningful analysis of the data being collected.
