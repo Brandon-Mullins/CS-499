@@ -1,25 +1,39 @@
-Brandon Mullins
-CS-499
-Module Five: Enhancement 3
-Southern New Hampshire University
+Enhancement 3: Databases
 
- 
 Briefly describe the artifact. What is it? When was it created?
-The artifact I selected for my database enhancement is the History Backup feature added to my Weight Tracker Android application that was originally created during my CS 360 coursework. The original version of the app focused on allowing users to add, update, and delete weight entries using local storage. While the data was functional during active use, the app lacked a long-term persistence or backup mechanism.
-For this enhancement, I added a structured database-backed history system that allows all weight records to be stored persistently and safely. This ensures that the user’s data is retained across sessions and protected from accidental loss, turning the app into a more reliable long-term tracking system.
+
+The artifact used for this enhancement is the Weight Tracker Android application originally created during my CS 360 Mobile Architecture and Programming course. In its original form, the application allowed users to add, update, and delete weight entries during active use of the app. However, the data was stored only locally in memory, meaning long-term persistence and recovery were limited.
+
+For this enhancement, the application was expanded to include a database-backed history and backup system. All weight entries are now stored persistently using a structured database, ensuring that user data is retained across sessions and protected from accidental loss. This enhancement transforms the application from a temporary tracking tool into a reliable long-term health record system.
+
 Justify the inclusion of the artifact in your ePortfolio. Why did you select this item? What specific components of the artifact showcase your skills and abilities in software development? How was the artifact improved?
-I included this artifact in my ePortfolio because it demonstrates my ability to work with real database systems and apply data persistence techniques to a mobile application. Without a database, even well-designed applications risk losing their usefulness over time. Adding the history backup feature makes the application far more realistic and production-ready.
+
+I selected this artifact because it clearly demonstrates my ability to design and integrate database solutions into a real application. Data persistence is a critical requirement for nearly all production software, and this enhancement shows how database concepts directly support usability, reliability, and user trust.
+
 This enhancement showcases my ability to:
-– Design database schemas
-– Implement structured data storage
-– Connect the app’s UI to persistent records
-– Safely read and write records
-– Maintain clean separation between the UI and data layer
-– Preserve historical records across sessions
-The improvement transformed the application from a temporary tracking tool into a reliable health history system. Users no longer lose progress when the app closes or the device restarts, which is critical for any real-world health tracking software.
+
+Design and structure persistent data storage
+
+Implement database schemas aligned with application needs
+
+Perform safe create, read, update, and delete operations
+
+Separate database logic from UI components
+
+Maintain data integrity across application restarts
+
+The artifact was improved by introducing a history backup feature that ensures all weight records are saved and retrievable at any time. Users no longer lose progress when the application closes or the device restarts, making the app suitable for long-term use. This enhancement significantly increases the realism and professionalism of the application.
+
 Did you meet the course outcomes you planned to meet with this enhancement in Module One? Do you have any updates to your outcome-coverage plans?
-Yes, this enhancement directly meets the database course outcome that I planned to address in Module One. I was able to demonstrate my ability to use well-founded tools and techniques for building a real database-backed application. The history backup feature also reinforces the outcome regarding delivering computing solutions that provide real value to users.
-With all three enhancements now completed, I have demonstrated progress across software engineering, algorithms and data structures, and databases. At this point, my focus will be on polishing these enhancements for the final ePortfolio and ensuring everything is clearly presented and documented.
+
+Yes, this enhancement meets the database-related course outcomes identified in Module One. It demonstrates my ability to use well-founded tools and techniques to implement persistent storage solutions that deliver real value to users.
+
+With this enhancement completed, I have now demonstrated progress across all three core areas of the Computer Science program: software design and engineering, algorithms and data structures, and databases. At this stage, my remaining focus is on refining documentation, presentation, and overall polish for the final ePortfolio submission.
+
 Reflect on the process of enhancing and modifying the artifact. What did you learn as you were creating it and improving it? What challenges did you face?
-Through this enhancement, I learned how important data persistence and reliability are in real applications. One of the biggest challenges was deciding how to structure the stored data so that it could be accessed efficiently and remain flexible for future expansion. I also had to ensure the database interactions were properly synchronized with the app’s existing UI logic.
-Another challenge was testing edge cases, such as empty histories, deleted records, and updated values. This forced me to think more like a production developer rather than just focusing on functionality. This enhancement helped strengthen my understanding of how databases serve as the foundation for modern applications and reinforced my ability to build software that users can trust long term.
+
+Through this enhancement, I gained a deeper understanding of how essential databases are to modern software systems. One of the primary challenges was designing a data structure that could support future growth while remaining simple and efficient for current needs.
+
+Another challenge involved ensuring that database operations were synchronized correctly with the application’s existing logic. Handling edge cases such as empty histories, deleted entries, and updated values required careful planning and testing. This process encouraged me to think beyond basic functionality and consider reliability, consistency, and long-term maintainability.
+
+Overall, this enhancement reinforced the importance of databases as the foundation of trustworthy applications and strengthened my ability to build systems that users can depend on over time.
