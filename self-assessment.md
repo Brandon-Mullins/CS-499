@@ -1,12 +1,4 @@
-Brandon Mullins
-CS-499
-Module Seven: Self-Assessment
-Southern New Hampshire University
-
-
-
-
-
+# Professional Self-assessment
 	
 Completing the Computer Science program and developing my ePortfolio has allowed me to clearly see how my technical skills, problem-solving ability, and professional mindset have evolved. When I began the program, my focus was primarily on learning syntax and understanding how individual programs worked. As I progressed through the coursework and ultimately through the capstone experience, my thinking shifted toward designing complete systems that are maintainable, scalable, and meaningful to real users.
 Throughout the program, I developed strong foundations in software engineering, algorithms and data structures, and databases. Courses such as CS 360, CS 340, CS 320, and CS 260 helped me understand how modern applications are built end to end, from user interfaces to data persistence and logic processing. The Weight Tracker application included in this ePortfolio demonstrates this progression by showing how an initial application can be refined through iterative enhancements that improve usability, performance, and data reliability.
