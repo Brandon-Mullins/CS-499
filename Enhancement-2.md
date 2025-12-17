@@ -1,28 +1,36 @@
-Brandon Mullins
-CS-499
-Module Four: Milestone Three
-Southern New Hampshire University
-
- 
+Enhancement 2: Algorithms and Data Structures
 Briefly describe the artifact. What is it? When was it created?
-The artifact I selected for my algorithms and data structures enhancement is the Weekly Trend Summary feature inside my Weight Tracker Android app. This feature was added during my CS 360 coursework, but the original version of the app did not include any algorithmic analysis. The app originally allowed users to add, update, and delete weight entries, and it displayed them in a basic list.
-For this enhancement, I added a full data-processing algorithm that analyzes weight entries across two different weeks. The code calculates this week's average weight, last week's average weight, and then produces an interpretation of the user's progress. This logic is implemented in a new function called calculateWeeklyTrend(), along with a small data class used to store the results.
-Justify the inclusion of the artifact in your ePortfolio. Why did you select this item? What specific components of the artifact showcase your skills and abilities in algorithms and data structure? How was the artifact improved?
-I included this artifact in my ePortfolio because it clearly demonstrates my ability to design and implement an algorithm that processes collections of data and produces meaningful insights. This enhancement required me to work directly with lists, filtering, date ranges, averaging, and conditional logic. It shows that I can apply computer science fundamentals to solve real-world problems.
-The Weekly Trend Summary transforms the app from a basic CRUD tracker into something that gives users useful feedback based on their data. The improvement includes:
 
-– A custom algorithm that groups entries by week
-– Logic for calculating weekly averages
-– Conditional analysis that determines whether the user is improving, declining, or maintaining
-– A structured data model to return results cleanly
-– Integration of the computed results into the UI
-This enhancement showcases my ability to design lightweight data structures, build efficient logic over lists, and implement algorithms that add real value to an application.
+The artifact used for this enhancement is the Weight Tracker Android application originally created during my CS 360 Mobile Architecture and Programming course. The original version of the application allowed users to record, update, and delete daily weight entries, but it primarily functioned as a basic data entry and storage tool without meaningful analysis of the data being collected.
+
+For this enhancement, the application was expanded to include structured data analysis logic that evaluates weight entries over time. Specifically, the enhancement introduces weekly grouping and comparison logic that calculates average weight values for the current and previous weeks. This allows the application to move beyond simple record keeping and instead provide users with insights into their progress trends.
+
+Justify the inclusion of the artifact in your ePortfolio. Why did you select this item? What specific components of the artifact showcase your skills and abilities in algorithms and data structure? How was the artifact improved?
+
+I selected this artifact because it provides a strong opportunity to demonstrate algorithmic thinking using real-world data. Rather than creating a standalone algorithm example, this enhancement integrates algorithms directly into a working application, which better reflects how algorithms and data structures are used in professional software development.
+
+This enhancement showcases my ability to:
+
+Group and filter structured data based on time ranges
+
+Apply averaging and comparison algorithms to datasets
+
+Use appropriate data structures to organize and process historical records
+
+Separate computation logic from the UI layer for maintainability
+
+The application was improved by adding a weekly trend analysis feature that computes the average weight for the current week and compares it to the previous week. Based on the calculated difference, the app provides meaningful feedback to the user, such as whether weight is trending downward, upward, or remaining stable. This turns raw data into actionable information and significantly improves the value of the application.
 
 Did you meet the course outcomes you planned to meet with this enhancement in Module One? Do you have any updates to your outcome-coverage plans?
-Yes, this enhancement directly meets the course outcome related to algorithms and data structures. I was able to design and evaluate a computing solution using algorithmic principles, which was the goal I set in Module One. The enhancement required careful thought about how to group data, compute results efficiently, and design a clear structure for returning those results.
-This enhancement also helped reinforce the outcome about delivering professional-quality improvements because I had to integrate the algorithm cleanly into the UI and ensure that the results updated automatically as the dataset changed. For future enhancements, I will continue focusing on data processing and possibly add more trend analysis, such as monthly summaries or progress predictions.
+
+Yes, this enhancement met the course outcomes I planned to address related to algorithms and data structures. I demonstrated the ability to design and evaluate computing solutions using algorithmic principles while managing trade-offs between simplicity, performance, and readability.
+
+The weekly analysis logic required careful consideration of date ranges, dataset filtering, and edge cases such as missing or incomplete data. This enhancement strengthened my confidence in applying algorithmic reasoning to real application scenarios. With this enhancement completed, my remaining focus shifted to database persistence and long-term data reliability in the final enhancement.
 
 Reflect on the process of enhancing and modifying the artifact. What did you learn as you were creating it and improving it? What challenges did you face?
-Enhancing this artifact taught me a lot about how important data analysis can be in even simple applications. One challenge was handling date ranges correctly, specially making sure that entries were grouped into the correct weeks. I had to work with the Java Time library and be precise with how I calculated the start and end of weeks.
-I also had to consider cases where users might not have enough data for comparison, which required using nullable values and guard clauses. Another challenge was ensuring that the UI updated correctly whenever new entries were added or modified, since the algorithm needed to refresh anytime the list changed.
-Overall, this enhancement improved both the technical logic of the app and my understanding of how algorithms support meaningful features. It strengthened my ability to build structured, maintainable logic that transforms raw data into actionable insights for users.
+
+Through this enhancement, I learned how important it is to structure algorithms around real user needs rather than abstract problems. One of the main challenges was ensuring that the logic correctly handled time-based data, including determining the start of the week and comparing entries across different periods.
+
+Another challenge involved handling situations where insufficient data existed for comparison. This required designing logic that was both accurate and user-friendly, providing clear feedback without producing misleading results. This process reinforced the importance of defensive programming and thoughtful data validation.
+
+Overall, this enhancement strengthened my understanding of how algorithms and data structures directly contribute to user experience and decision making. It also reinforced how clean separation between data processing and UI logic leads to more maintainable and scalable software.
