@@ -19,23 +19,23 @@ Each section below links to a detailed narrative explaining the enhancement, the
 
 - **Code Review**  
   A recorded walkthrough of the original artifact, analysis of improvement areas, and planned enhancements.  
-  [View Code Review](https://www.youtube.com/watch?v=w2vH9YkpZaI)
+  [View Code Review](/CS-499/code-review.md)
 
 - **Enhancement 1: Software Design and Engineering**  
   Focuses on improving application structure, modularity, UI clarity, and overall maintainability using modern Android development practices.  
-  [View Enhancement 1](Enhancement-1.md)
+  [View Enhancement 1](/CS-499/Enhancement-1.md)
 
 - **Enhancement 2: Algorithms and Data Structures**  
   Demonstrates algorithmic reasoning through data grouping, time-based analysis, and meaningful insight generation from stored records.  
-  [View Enhancement 2](Enhancement-2.md)
+  [View Enhancement 2](/CS-499/Enhancement-2.md)
 
 - **Enhancement 3: Databases**  
   Adds persistent data storage and history backup functionality, transforming the application into a reliable long-term tracking system.  
-  [View Enhancement 3](Enhancement-3.md)
+ [View Enhancement 3](/CS-499/Enhancement-3.md)
 
 - **Professional Self-Assessment**  
   A reflective overview of my growth throughout the Computer Science program and how this portfolio represents my readiness for professional practice.  
-  [View Self-Assessment](self-assessment.md)
+  [View Self-Assessment](/CS-499/self-assessment.md)
 
 ---
 
