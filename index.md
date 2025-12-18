@@ -19,23 +19,23 @@ Each section below links to a detailed narrative explaining the enhancement, the
 
 - **Code Review**  
   A recorded walkthrough of the original artifact, analysis of improvement areas, and planned enhancements.  
-  [View Code Review](/CS-499/code-review.md)
+  [View Code Review](code-review.md)
 
 - **Enhancement 1: Software Design and Engineering**  
   Focuses on improving application structure, modularity, UI clarity, and maintainability.  
-  [View Enhancement 1](/CS-499/Enhancement-1.md)
+ [View Enhancement 1](Enhancement-1.md)
 
 - **Enhancement 2: Algorithms and Data Structures**  
   Demonstrates algorithmic reasoning through grouping, analysis, and insight generation.  
-  [View Enhancement 2](/CS-499/Enhancement-2.md)
+  [View Enhancement 2](Enhancement-2.md)
 
 - **Enhancement 3: Databases**  
   Adds persistent storage and history backup functionality.  
-  [View Enhancement 3](/CS-499/Enhancement-3.md)
+  [View Enhancement 3](Enhancement-3.md)
 
 - **Professional Self-Assessment**  
   Reflects on program growth and professional readiness.  
-  [View Self-Assessment](/CS-499/self-assessment.md)
+  [View Self-Assessment](self-assessment.md)
 
 
 ---
